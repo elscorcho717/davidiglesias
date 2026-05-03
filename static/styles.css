@@ -248,7 +248,9 @@ nav {
   animation: fadeIn 1s 0.9s forwards;
 }
 
+.hero-tags span,
 .hero-tags a {
+  display: inline-block;
   font-size: 0.7rem;
   font-weight: 400;
   letter-spacing: 0.12em;
@@ -258,9 +260,9 @@ nav {
   padding: 6px 14px;
   border-radius: 100px;
   transition: border-color var(--transition), color var(--transition);
-  cursor: pointer;
 }
 
+.hero-tags span:hover,
 .hero-tags a:hover {
   border-color: var(--accent);
   color: var(--accent);
