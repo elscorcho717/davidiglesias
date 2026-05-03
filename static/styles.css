@@ -661,10 +661,16 @@ footer {
 }
 
 @media (max-width: 900px) {
-  nav { padding: 16px 24px; }
+  nav {
+    padding: 12px 24px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
   .nav-links { gap: 20px; }
+  .nav-links a { font-size: 0.7rem; }
 
-  .hero { padding: 120px 24px 60px; }
+  .hero { padding: 150px 24px 60px; }
   .hero::before { left: 24px; }
   .hero-inner {
     grid-template-columns: 1fr;
